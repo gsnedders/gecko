@@ -1,0 +1,94 @@
+[
+    {
+        "type": "interface",
+        "name": "IterableOne",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "iterable",
+                "idlType": [
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "long"
+                    }
+                ],
+                "extAttrs": [],
+                "readonly": false
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "interface",
+        "name": "IterableTwo",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "iterable",
+                "idlType": [
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "short"
+                    },
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": true,
+                        "union": false,
+                        "idlType": "double"
+                    }
+                ],
+                "extAttrs": [],
+                "readonly": false
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "interface",
+        "name": "IterableThree",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "iterable",
+                "idlType": [
+                    {
+                        "type": null,
+                        "extAttrs": [
+                            {
+                                "type": "extended-attribute",
+                                "name": "XAttr",
+                                "rhs": null,
+                                "arguments": []
+                            }
+                        ],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "long"
+                    }
+                ],
+                "extAttrs": [],
+                "readonly": false
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": ""
+    }
+]
